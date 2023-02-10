@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--MetaDatos-->
+  <meta charset="utf-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!--Titulo-->
+  <title>Portfolio | Valentino Jerez</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css"/>
+  <!--Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--Icono de Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--Tipo de Letra Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+ <app-barra>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+              <img  src="assets/Imagenes/Icono-Cohete.png"   width="50" alt="Logo Pagina Web">
+           <ul class="navbar-nav" d-flex justify-content-center align-items-center>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <button type="button" class="btn-btn-primary">Iniciar Sesion</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ </app-barra>
+  <app-seccionhero>
+    <!--Seccion Principal/Seccion Hero-->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal">
+          <img src="" class="imagen-perfil" alt="Foto de Valentino Jerez">
+          <h1>Hola, soy Valentino Jerez</h1>
+          <h2>Full Stack Developer Jr</h2>
+
+      </div>
+      <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="assets/Imagenes/Imagen-programador.jpg" alt="Banner">
+      </div>
+     </section>
+  </app-seccionhero>
+
+  <app-seccionsobremi>
+    <!--Sobre mi-->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+          <h2 class="seccion-titulo">Conoce a Valentino</h2>
+          <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet, mauris eget gravida tincidunt, nibh nisl tempus orci, in faucibus orci orci iaculis lorem. Donec finibus convallis congue. Sed porttitor eleifend dictum. Etiam vestibulum convallis erat, id faucibus nulla feugiat ac. Praesent ullamcorper tempor libero, nec consectetur ligula sodales non. Phasellus porta sit amet mi vitae condimentum. Duis accumsan molestie massa congue pulvinar. Quisque ac lorem quis justo pharetra lacinia eu a odio. Maecenas scelerisque sagittis imperdiet. Donec ac sem eu elit tempor imperdiet a ac mauris.</p>
+      </div>
+  </section>
+  </app-seccionsobremi>
+
+  <app-seccionexp>
+    <!--Experiencia-->
+    <section class="experiencia">
+      <div>
+          <h2 class="seccion-titulo">Experiencia</h2>
+          <div class="row">
+            <div class="col-6">
+              <h3>Experiencia 1</h3>
+              <img class="" src="" alt="Experiencia 1">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur iusto sapiente, velit cumque voluptates laudantium amet neque beatae saepe ducimus dolorum eius vel eum nobis animi rerum in atque.</p>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-6">
+                  <h3>Experiencia 2</h3>
+                  <img class="" src="" alt="Experiencia 2">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa iusto, facilis sed, quisquam at accusamus voluptas tenetur fugit beatae recusandae sit expedita! Tempora, illo amet perspiciatis tenetur iusto illum assumenda.</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-6">
+                  <h3>Experiencia 3</h3>
+                  <img class="" src="" alt="Experiencia 3">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quam architecto mollitia, aperiam quisquam delectus vero nihil doloribus sed facere velit ipsam nisi eum vel obcaecati amet dicta accusantium sunt?</p>
+              </div>
+          </div>
+      </div>
+    </section>
+  </app-seccionexp>
+
+  <app-skills>
+        <!--Hard y Soft Skills-->
+        <section class="skills">
+          <div class="text-center">
+               <h2>Mi Hard y Soft Skills</h2>
+                 <div class="row">
+                    <div class="col-4">
+                       <div class="progress-circle-container">
+                      <p>HTML</p>
+                      <div class="progress-circle progress-30"><span>30</span></div>
+                     </div>
+                    </div>
+                        <div class="col-4">
+                         <div class="progress-circle-container">
+                            <p>CSS</p>
+                          <div class="progress-circle progress-25"><span>25</span></div>
+                        </div>
+                       </div>
+                        <div class="col-4">
+                        <div class="progress-circle-container">
+                        <p>Angular</p>
+                        <div class="progress-circle progress-5"><span>5</span></div>
+                    </div>
+                 </div>
+            </div>
+    </section>
+  </app-skills>
+
+  <app-proyectos>
+    <!--Proyectos-->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h4 class="seccion">Subtitulo</h4>
+      <!--Galeria de proyectos-->
+      
+  </section>
+  </app-proyectos>
+
+  <!--No escribir por debajo de este link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
